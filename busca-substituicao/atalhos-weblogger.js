@@ -60,9 +60,9 @@ function parseMarkdown(text) {
 
 // TODO: Complete os espaços em branco com uma possível solução para o código:
 
-let count =     ;
+let count = 0;
 do {
-print(          (text));
-        = gets();
-                      ;
-} while (      < 60);
+    print(parseMarkdown(text));
+    text = gets();
+    count++;
+} while (count< 60);
