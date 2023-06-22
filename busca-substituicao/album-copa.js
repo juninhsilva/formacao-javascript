@@ -46,9 +46,9 @@ const numTotal = parseInt(gets())
 const numFigCompradas = parseInt(gets())
 const setFig = new Set()
 
-for(                    ){
-  const fig = 
-  setFig.add(       )
+for(let i = 0; i < numFigCompradas; i++){
+  const fig = parseInt(gets())
+  setFig.add(fig)
 }
 
-print(numTotal -        )
+print(numTotal - setFig.size)
